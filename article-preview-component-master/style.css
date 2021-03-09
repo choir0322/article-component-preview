@@ -1,0 +1,130 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.container{
+    display:flex;
+    width:730px;
+    height:290px;
+}
+.imgContainer{
+    background-image:url('images/drawers.jpg');
+    background-size:cover;
+    width:800px;
+    height:290px;
+    border-radius: 10px 0px 0px 10px;
+}
+.texts{
+    padding:10px 40px 20px 40px;
+    background-color:white;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.texts h3{
+    color: hsl(217, 19%, 35%);
+}
+
+.texts p{
+    font-size:13px;
+    color: hsl(212, 23%, 69%);
+}
+
+.personInfo{
+    font-size:13px;
+}
+
+.personInfo b{
+    position:relative;
+    bottom:25px;
+    left:10px;
+}
+
+.personInfo p{
+    position:relative;
+    bottom:35px;
+    left:55px;
+    color: hsl(212, 23%, 69%);
+}
+
+.bottom{
+    display:flex;
+    justify-content:space-between;
+    padding-top:20px;
+    z-index:1;
+    position:relative;
+    bottom:80px;
+}
+
+.profilePic{
+    max-height:40px;
+    width:auto;
+    border-radius: 100%;
+}
+
+.share{
+    position:relative;
+    top:5px;
+    height:35px;
+    width:35px;
+    border-radius: 100%;
+    border:none;
+}
+
+.sharePopupContainer{
+    z-index:2;
+    position:relative;
+    bottom:60px;
+    right:5px;
+    visibility:hidden;
+}
+
+.sharePopup{
+    background-color:hsl(217, 19%, 35%);
+    display:flex;
+    justify-content:space-around;
+    width:200px;
+    border-radius: 10px 10px 10px 10px;
+    font-weight:200px;
+    padding:5px 20px 5px 20px;
+    position:relative;
+    left:225px;
+}
+
+.triangleDown{
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid hsl(217,19%, 35%);
+    position:relative;
+    bottom:5px;
+    left:335px;
+}
+
+.icons{
+    width:90px;
+    padding-top:13px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.sharePopup .facebook{
+    width:20px;
+    height:20px;
+}
+
+.sharePopup .twitter{
+    width:20px;
+    height:20px;
+}
+
+.sharePopup .pinterest{
+    width:20px;
+    height:20px;
+}
